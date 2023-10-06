@@ -80,7 +80,14 @@ section {
 }
 
 .seção1 {
-  background-color: white;
+  background-color: rgb(51, 51, 51);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width:auto;
+height: 794px; 
+align-content: center;
+
 }
 
 .seção2 {
@@ -105,4 +112,31 @@ footer {
 .footer-content img {
     width: 80px;
     height: 60px;
+}
+
+.frase-1{
+font-size: 40px;
+color: aliceblue;
+display: flex;
+}
+
+.botao-1{
+   padding: 25px;
+  color:white (255, 0, 0);
+  background-color: rgb(231, 171, 58);
+  font-size: 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+
+.botao-1 :hover{
+background-color: blue;
+}
+
+
+.frase-2{
+color: rgb(255, 199, 199);
+margin-top: 500px;
 }
