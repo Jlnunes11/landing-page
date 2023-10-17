@@ -80,18 +80,19 @@ section {
 }
 
 .seção1 {
-  background-color: rgb(51, 51, 51);
-  justify-items: center;
+  background-color: rgb(185, 185, 185);
+  display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   width:auto;
 height: 794px; 
 align-content: center;
-
 }
 
 .seção2 {
   background-color: rgb(240, 238, 238);
+
 }
 
 .seção3 {
@@ -116,27 +117,86 @@ footer {
 
 .frase-1{
 font-size: 40px;
-color: aliceblue;
+color: black;
 display: flex;
 }
 
 .botao-1{
    padding: 25px;
   color:white (255, 0, 0);
-  background-color: rgb(231, 171, 58);
+  background-color: green;
   font-size: 30px;
   border-radius: 30px;
   font-weight: bold;
   margin-top: 35px;
+  
 }
 
 
-.botao-1 :hover{
+.botao-1:hover{
 background-color: blue;
 }
 
 
 .frase-2{
-color: rgb(255, 199, 199);
-margin-top: 500px;
+color: black;
+font-size: 20px;
+}
+
+.card-1 {
+  border: 2px solid rgb(141, 141, 141);
+  border-radius: 18px;
+  padding: 30px;
+  margin: 10px;
+  width: auto;
+  background-color: #f9f9f9;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.fly{
+font-size: 15px;
+
+}
+
+.h2{
+  color: green;
+}
+
+.card-2{
+ border: 2px solid rgb(141, 141, 141);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 10px;
+  width: auto;
+  background-color: #f9f9f9;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-3{
+   border: 2px solid rgb(141, 141, 141);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 10px;
+  width: auto;
+  background-color: #f9f9f9;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flu{
+  color:purple ;
+}
+
+
+.flo{
+color: ;
+
 }
